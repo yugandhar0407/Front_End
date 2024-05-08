@@ -1,0 +1,15 @@
+.box{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background: red;
+    transition-duration: 2s;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-delay: 2s;
+}
+.box:hover{
+    color: blue;
+    background: yellow;
+    transform: rotate(45deg);
+}

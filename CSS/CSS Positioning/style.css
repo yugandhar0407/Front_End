@@ -1,0 +1,31 @@
+html{
+    background-color: pink;
+    padding: 15px;
+}
+body{
+    background-color: #72f074;
+    padding: 15px;
+    margin: 0;
+    font-size: 20px;
+    position: relative;
+    height: 200vh;
+}
+header{
+    background-color: #bea0cb;
+    margin: 15px;
+    position: relative;
+}
+nav {
+    background-color: orange;
+    margin: 10px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    position: relative;
+}
+
+footer{
+    background-color: red;
+    margin: 10px;
+    position: relative;
+}
