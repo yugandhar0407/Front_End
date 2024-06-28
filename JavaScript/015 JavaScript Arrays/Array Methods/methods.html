@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Array Methods</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <p id="method"></p>
+</body>
+<script>
+
+    let bikes =["Duke","Honda","Pulsar","Hunter"];
+
+
+    document.getElementById("method").innerHTML=bikes;
+    document.getElementById("method").innerHTML=bikes.toString();
+    // toString() method is used to convert an array into String
+    
+    let last = bikes.pop();
+    document.getElementById("method").innerHTML=last;
+    // pop() method is used to remove the last element in any array
+    let last1 = bikes[bikes.length-1];
+    document.getElementById("method").innerHTML=last1;
+    // for last element in an array
+
+    let add = bikes.push("Java");
+    // push() method is used to add the element in the end of an array
+    document.getElementById("method").innerHTML=add;
+    document.getElementById("method").innerHTML=bikes;
+
+    let shift = bikes.shift();
+    document.getElementById("method").innerHTML=shift;
+    //shift() method is used to remove the first element in an array
+    document.getElementById("method").innerHTML=bikes;
+
+    let unshift = bikes.unshift("Discover");
+    document.getElementById("method").innerHTML=unshift;
+    //unshift() method is used to add the element at the beginning of the array
+    document.getElementById("method").innerHTML=bikes;
+    
+    let cars =["BMW","Suzuki","BenZ","Lamborghini"];
+
+    let vehicles = bikes.concat(cars);
+    // concat() method is used to create a new array by merging existing arrays
+    document.getElementById("method").innerHTML=vehicles;
+
+    let order = vehicles.sort();
+    // sort() method is used to set the array in ascending order
+    document.getElementById("method").innerHTML=order;
+
+    let reverse = vehicles.reverse();
+    // reverse() method is used to set the array in reverse
+    document.getElementById("method").innerHTML=reverse;
+
+</script>
+</html>
